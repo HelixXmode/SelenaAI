@@ -8,15 +8,15 @@
 
 ### Why SelenaAI (AgenticSeek) ?
 
-* 🔒 Fully Local & Private - Everything runs on your machine — no cloud, no data sharing. Your files, conversations, and searches stay private.
+* 🔒 Fully Local & Private - Everything runs on your machine - no cloud, no data sharing. Your files, conversations, and searches stay private.
 
-* 🌐 Smart Web Browsing - SelenaAI (AgenticSeek) can browse the internet by itself — search, read, extract info, fill web form — all hands-free.
+* 🌐 Smart Web Browsing - SelenaAI (AgenticSeek) can browse the internet by itself - search, read, extract info, fill web form - all hands-free.
 
-* 💻 Autonomous Coding Assistant - Need code? It can write, debug, and run programs in Python, C, Go, Java, and more — all without supervision.
+* 💻 Autonomous Coding Assistant - Need code? It can write, debug, and run programs in Python, C, Go, Java, and more - all without supervision.
 
 * 🧠 Smart Agent Selection - You ask, it figures out the best agent for the job automatically. Like having a team of experts ready to help.
 
-* 📋 Plans & Executes Complex Tasks - From trip planning to complex projects — it can split big tasks into steps and get things done using multiple AI agents.
+* 📋 Plans & Executes Complex Tasks - From trip planning to complex projects - it can split big tasks into steps and get things done using multiple AI agents.
 
 * 🎙️ Voice-Enabled - Clean, fast, futuristic voice and speech to text allowing you to talk to it like it's your personal AI from a sci-fi movie. (In progress)
 
