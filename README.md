@@ -689,8 +689,4 @@ See [Contributing.md](./docs/CONTRIBUTING.md) to learn how to integrate custom t
 
  > [antoineVIVIES](https://github.com/antoineVIVIES) | Taipei Time 
 
-## Special Thanks:
-
- > [tcsenpai](https://github.com/tcsenpai) and [plitc](https://github.com/plitc) For helping with backend dockerization
-
 [![Star History Chart](https://api.star-history.com/svg?repos=Fosowl/SelenaAI (AgenticSeek)&type=Date)](https://www.star-history.com/#Fosowl/SelenaAI (AgenticSeek)&Date)
