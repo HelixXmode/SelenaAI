@@ -1,4 +1,5 @@
 # SelenaAI (AgenticSeek): Private, Local Manus Alternative.
+$SELENA
 
 <p align="center">
 <img align="center" src="./media/agentic_seek_logo.png" width="300" height="300" alt="Agentic Seek Logo">
