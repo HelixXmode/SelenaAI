@@ -659,12 +659,6 @@ Yes with Ollama, lm-studio or server providers, all speech to text, LLM and text
 
 Unlike Manus, SelenaAI (AgenticSeek) prioritizes independence from external systems, giving you more control, privacy and avoid api cost.
 
-**Q: Who is behind the project ?**
-
-The project was created by me, along with two friends who serve as maintainers and contributors from the open-source community on GitHub. We’re just a group of passionate individuals, not a startup or affiliated with any organization.
-
-Any SelenaAI (AgenticSeek) account on X other than my personal account (https://x.com/Martin993886460) is an impersonation.
-
 ## Contribute
 
 We’re looking for developers to improve SelenaAI (AgenticSeek)! Check out open issues or discussion.
