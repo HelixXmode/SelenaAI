@@ -668,25 +668,6 @@ Any SelenaAI (AgenticSeek) account on X other than my personal account (https://
 
 We’re looking for developers to improve SelenaAI (AgenticSeek)! Check out open issues or discussion.
 
-[Contribution guide](./docs/CONTRIBUTING.md)
-
-
 ## Sponsors:
 
 Want to level up SelenaAI (AgenticSeek) capabilities with features like flight search, trip planning, or snagging the best shopping deals? Consider crafting a custom tool with SerpApi to unlock more Jarvis-like capabilities. With SerpApi, you can turbocharge your agent for specialized tasks while staying in full control.
-
-<a href="https://serpapi.com/"><img src="./media/banners/sponsor_banner_serpapi.png" height="350" alt="SerpApi Banner" ></a>
-
-See [Contributing.md](./docs/CONTRIBUTING.md) to learn how to integrate custom tools!
-
-### **Patron sponsor**:
-
-- [tatra-labs](https://github.com/tatra-labs)
-
-## Maintainers:
-
- > [Fosowl](https://github.com/Fosowl) | Paris Time 
-
- > [antoineVIVIES](https://github.com/antoineVIVIES) | Taipei Time 
-
-[![Star History Chart](https://api.star-history.com/svg?repos=Fosowl/SelenaAI (AgenticSeek)&type=Date)](https://www.star-history.com/#Fosowl/SelenaAI (AgenticSeek)&Date)
