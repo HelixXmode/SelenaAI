@@ -1,4 +1,4 @@
-# SelenaAI: Private, Local Manus Alternative.
+# SelenaAI: AgenticSeek: Private, Local Manus Alternative.
 
 <p align="center">
 <img align="center" src="./media/agentic_seek_logo.png" width="300" height="300" alt="Agentic Seek Logo">
@@ -8,13 +8,13 @@
 
 *A **100% local alternative to Manus AI**, this voice-enabled AI assistant autonomously browses the web, writes code, and plans tasks while keeping all data on your device. Tailored for local reasoning models, it runs entirely on your hardware, ensuring complete privacy and zero cloud dependency.*
 
-[![Visit SelenaAI](https://img.shields.io/static/v1?label=Website&message=SelenaAI&color=blue&style=flat-square)](https://fosowl.github.io/SelenaAI.html) ![License](https://img.shields.io/badge/license-GPL--3.0-green) [![Discord](https://img.shields.io/badge/Discord-Join%20Us-7289DA?logo=discord&logoColor=white)](https://discord.gg/8hGDaME3TC) [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/fosowl.svg?style=social&label=Update%20%40Fosowl)](https://x.com/Martin993886460) [![GitHub stars](https://img.shields.io/github/stars/Fosowl/SelenaAI?style=social)](https://github.com/Fosowl/SelenaAI/stargazers)
+[![Visit SelenaAI: AgenticSeek](https://img.shields.io/static/v1?label=Website&message=SelenaAI: AgenticSeek&color=blue&style=flat-square)](https://fosowl.github.io/SelenaAI: AgenticSeek.html) ![License](https://img.shields.io/badge/license-GPL--3.0-green) [![Discord](https://img.shields.io/badge/Discord-Join%20Us-7289DA?logo=discord&logoColor=white)](https://discord.gg/8hGDaME3TC) [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/fosowl.svg?style=social&label=Update%20%40Fosowl)](https://x.com/Martin993886460) [![GitHub stars](https://img.shields.io/github/stars/Fosowl/SelenaAI: AgenticSeek?style=social)](https://github.com/Fosowl/SelenaAI: AgenticSeek/stargazers)
 
-### Why SelenaAI ?
+### Why SelenaAI: AgenticSeek ?
 
 * 🔒 Fully Local & Private - Everything runs on your machine — no cloud, no data sharing. Your files, conversations, and searches stay private.
 
-* 🌐 Smart Web Browsing - SelenaAI can browse the internet by itself — search, read, extract info, fill web form — all hands-free.
+* 🌐 Smart Web Browsing - SelenaAI: AgenticSeek can browse the internet by itself — search, read, extract info, fill web form — all hands-free.
 
 * 💻 Autonomous Coding Assistant - Need code? It can write, debug, and run programs in Python, C, Go, Java, and more — all without supervision.
 
@@ -26,7 +26,7 @@
 
 ### **Demo**
 
-> *Can you search for the SelenaAI project, learn what skills are required, then open the CV_candidates.zip and then tell me which match best the project*
+> *Can you search for the SelenaAI: AgenticSeek project, learn what skills are required, then open the CV_candidates.zip and then tell me which match best the project*
 
 https://github.com/user-attachments/assets/b8ca60e9-7b3b-4533-840e-08f9ac426316
 
@@ -49,8 +49,8 @@ Before you begin, ensure you have the following software installed:
 ### 1. **Clone the repository and setup**
 
 ```sh
-git clone https://github.com/Fosowl/SelenaAI.git
-cd SelenaAI
+git clone https://github.com/Fosowl/SelenaAI: AgenticSeek.git
+cd SelenaAI: AgenticSeek
 mv .env.example .env
 ```
 
@@ -76,7 +76,7 @@ Update the `.env` file with your own values as needed:
 
 - **SEARXNG_BASE_URL**: Leave unchanged unless running on host with CLI mode.
 - **REDIS_BASE_URL**: Leave unchanged 
-- **WORK_DIR**: Path to your working directory on your local machine. SelenaAI will be able to read and interact with these files.
+- **WORK_DIR**: Path to your working directory on your local machine. SelenaAI: AgenticSeek will be able to read and interact with these files.
 - **OLLAMA_PORT**: Port number for the Ollama service.
 - **LM_STUDIO_PORT**: Port number for the LM Studio service.
 - **CUSTOM_ADDITIONAL_LLM_PORT**: Port for any additional custom LLM service.
@@ -105,7 +105,7 @@ If you see information about your Docker installation, it is running correctly.
 
 See the table of [Local Providers](#list-of-local-providers) below for a summary.
 
-Next step: [Run SelenaAI locally](#start-services-and-run)
+Next step: [Run SelenaAI: AgenticSeek locally](#start-services-and-run)
 
 *See the [Troubleshooting](#troubleshooting) section if you are having issues.*
 *If your hardware can't run LLMs locally, see [Setup to run with an API](#setup-to-run-with-an-api).*
@@ -123,7 +123,7 @@ To run LLMs locally, you'll need sufficient hardware. At a minimum, a GPU capabl
 
 Start your local provider (for example with ollama):
 
-Unless you wish to to run SelenaAI on host (CLI mode), export or set the provider listen address:
+Unless you wish to to run SelenaAI: AgenticSeek on host (CLI mode), export or set the provider listen address:
 
 ```sh
 export OLLAMA_HOST=0.0.0.0:11434
@@ -178,7 +178,7 @@ Do not copy and paste the example configuration directly, as comments will cause
 | lm-studio  | Yes    | Run LLM locally with LM studio (set `provider_name` to `lm-studio`)|
 | openai    | Yes     |  Use openai compatible API (eg: llama.cpp server)  |
 
-Next step: [Start services and run SelenaAI](#Start-services-and-Run)  
+Next step: [Start services and run SelenaAI: AgenticSeek](#Start-services-and-Run)  
 
 *See the [Troubleshooting](#troubleshooting) section if you are having issues.*
 *If your hardware can't run LLMs locally, see [Setup to run with an API](#setup-to-run-with-an-api).*
@@ -246,7 +246,7 @@ provider_server_address = # Typically ignored or can be left blank when is_local
 *   Coding/bash tasks might encounter issues with Gemini, as it may not strictly follow formatting prompts optimized for Deepseek.
 *   The `provider_server_address` in `config.ini` is generally not used when `is_local = False` as the API endpoint is usually hardcoded in the respective provider's library.
 
-Next step: [Start services and run SelenaAI](#Start-services-and-Run)
+Next step: [Start services and run SelenaAI: AgenticSeek](#Start-services-and-Run)
 
 *See the **Known issues** section if you are having issues*
 
@@ -256,7 +256,7 @@ Next step: [Start services and run SelenaAI](#Start-services-and-Run)
 
 ## Start services and Run
 
-By default SelenaAI is run fully in docker.
+By default SelenaAI: AgenticSeek is run fully in docker.
 
 **Option 1:** Run in Docker, use web interface:
 
@@ -275,7 +275,7 @@ start start_services.cmd full # Window
 
 Go to `http://localhost:3000/` and you should see the web interface.
 
-*Troubleshooting service start:* If these scripts fail, ensure Docker Engine is running and Docker Compose (V2, `docker compose`) is correctly installed. Check the output in the terminal for error messages. See [FAQ: Help! I get an error when running SelenaAI or its scripts.](#faq-troubleshooting)
+*Troubleshooting service start:* If these scripts fail, ensure Docker Engine is running and Docker Compose (V2, `docker compose`) is correctly installed. Check the output in the terminal for error messages. See [FAQ: Help! I get an error when running SelenaAI: AgenticSeek or its scripts.](#faq-troubleshooting)
 
 **Option 2:** CLI mode:
 
@@ -337,7 +337,7 @@ Here are some example usage:
 
 
 
-After you type your query, SelenaAI will allocate the best agent for the task.
+After you type your query, SelenaAI: AgenticSeek will allocate the best agent for the task.
 
 Because this is an early prototype, the agent routing system might not always allocate the right agent based on your query.
 
@@ -368,8 +368,8 @@ Clone the repository and enter the `server/`folder.
 
 
 ```sh
-git clone --depth 1 https://github.com/Fosowl/SelenaAI.git
-cd SelenaAI/llm_server/
+git clone --depth 1 https://github.com/Fosowl/SelenaAI: AgenticSeek.git
+cd SelenaAI: AgenticSeek/llm_server/
 ```
 
 Install server specific requirements:
@@ -401,7 +401,7 @@ provider_server_address = http://x.x.x.x:3333
 ```
 
 
-Next step: [Start services and run SelenaAI](#Start-services-and-Run)  
+Next step: [Start services and run SelenaAI: AgenticSeek](#Start-services-and-Run)  
 
 ---
 
@@ -473,7 +473,7 @@ stealth_mode = False
     *   `save_session`: `True` to save the current session's state for potential recovery, `False` otherwise.
     *   `speak`: `True` to enable text-to-speech voice output, `False` to disable.
     *   `listen`: `True` to enable speech-to-text voice input (CLI mode only), `False` to disable.
-    *   `work_dir`: **Crucial:** The directory where SelenaAI will read/write files. **Ensure this path is valid and accessible on your system.**
+    *   `work_dir`: **Crucial:** The directory where SelenaAI: AgenticSeek will read/write files. **Ensure this path is valid and accessible on your system.**
     *   `jarvis_personality`: `True` to use a more "Jarvis-like" system prompt (experimental), `False` for the standard prompt.
     *   `languages`: A comma-separated list of languages (e.g., `en, zh, fr`). Used for TTS voice selection (defaults to the first) and can assist the LLM router. Avoid too many or very similar languages for router efficiency.
 *   **`[BROWSER]` Section:**
@@ -490,7 +490,7 @@ This section summarizes the supported LLM provider types. Configure them in `con
 | `ollama`                      | `True`     | Use Ollama to serve local LLMs.                                             | [Setup for running LLM locally](#setup-for-running-llm-locally-on-your-machine) |
 | `lm-studio`                   | `True`     | Use LM-Studio to serve local LLMs.                                          | [Setup for running LLM locally](#setup-for-running-llm-locally-on-your-machine) |
 | `openai` (for local server)   | `True`     | Connect to a local server that exposes an OpenAI-compatible API (e.g., llama.cpp). | [Setup for running LLM locally](#setup-for-running-llm-locally-on-your-machine) |
-| `server`                      | `False`    | Connect to the SelenaAI self-hosted LLM server running on another machine. | [Setup to run the LLM on your own server](#setup-to-run-the-llm-on-your-own-server) |
+| `server`                      | `False`    | Connect to the SelenaAI: AgenticSeek self-hosted LLM server running on another machine. | [Setup to run the LLM on your own server](#setup-to-run-the-llm-on-your-own-server) |
 
 **API Providers (Cloud-Based):**
 
@@ -659,26 +659,26 @@ Ensure local is running (`ollama serve`), your `config.ini` matches your provide
 
 Yes with Ollama, lm-studio or server providers, all speech to text, LLM and text to speech model run locally. Non-local options (OpenAI or others API) are optional.
 
-**Q: Why should I use SelenaAI when I have Manus?**
+**Q: Why should I use SelenaAI: AgenticSeek when I have Manus?**
 
-Unlike Manus, SelenaAI prioritizes independence from external systems, giving you more control, privacy and avoid api cost.
+Unlike Manus, SelenaAI: AgenticSeek prioritizes independence from external systems, giving you more control, privacy and avoid api cost.
 
 **Q: Who is behind the project ?**
 
 The project was created by me, along with two friends who serve as maintainers and contributors from the open-source community on GitHub. We’re just a group of passionate individuals, not a startup or affiliated with any organization.
 
-Any SelenaAI account on X other than my personal account (https://x.com/Martin993886460) is an impersonation.
+Any SelenaAI: AgenticSeek account on X other than my personal account (https://x.com/Martin993886460) is an impersonation.
 
 ## Contribute
 
-We’re looking for developers to improve SelenaAI! Check out open issues or discussion.
+We’re looking for developers to improve SelenaAI: AgenticSeek! Check out open issues or discussion.
 
 [Contribution guide](./docs/CONTRIBUTING.md)
 
 
 ## Sponsors:
 
-Want to level up SelenaAI capabilities with features like flight search, trip planning, or snagging the best shopping deals? Consider crafting a custom tool with SerpApi to unlock more Jarvis-like capabilities. With SerpApi, you can turbocharge your agent for specialized tasks while staying in full control.
+Want to level up SelenaAI: AgenticSeek capabilities with features like flight search, trip planning, or snagging the best shopping deals? Consider crafting a custom tool with SerpApi to unlock more Jarvis-like capabilities. With SerpApi, you can turbocharge your agent for specialized tasks while staying in full control.
 
 <a href="https://serpapi.com/"><img src="./media/banners/sponsor_banner_serpapi.png" height="350" alt="SerpApi Banner" ></a>
 
@@ -698,4 +698,4 @@ See [Contributing.md](./docs/CONTRIBUTING.md) to learn how to integrate custom t
 
  > [tcsenpai](https://github.com/tcsenpai) and [plitc](https://github.com/plitc) For helping with backend dockerization
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Fosowl/SelenaAI&type=Date)](https://www.star-history.com/#Fosowl/SelenaAI&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=Fosowl/SelenaAI: AgenticSeek&type=Date)](https://www.star-history.com/#Fosowl/SelenaAI: AgenticSeek&Date)
