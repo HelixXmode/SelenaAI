@@ -5,8 +5,6 @@
 <p>
 *A **100% local alternative to Manus AI**, this voice-enabled AI assistant autonomously browses the web, writes code, and plans tasks while keeping all data on your device. Tailored for local reasoning models, it runs entirely on your hardware, ensuring complete privacy and zero cloud dependency.*
 
-[![Visit SelenaAI (AgenticSeek)](https://img.shields.io/static/v1?label=Website&message=SelenaAI (AgenticSeek)&color=blue&style=flat-square)](https://fosowl.github.io/SelenaAI (AgenticSeek).html) ![License](https://img.shields.io/badge/license-GPL--3.0-green) [![Discord](https://img.shields.io/badge/Discord-Join%20Us-7289DA?logo=discord&logoColor=white)](https://discord.gg/8hGDaME3TC) [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/fosowl.svg?style=social&label=Update%20%40Fosowl)](https://x.com/Martin993886460) [![GitHub stars](https://img.shields.io/github/stars/Fosowl/SelenaAI (AgenticSeek)?style=social)](https://github.com/Fosowl/SelenaAI (AgenticSeek)/stargazers)
-
 ### Why SelenaAI (AgenticSeek) ?
 
 * 🔒 Fully Local & Private - Everything runs on your machine — no cloud, no data sharing. Your files, conversations, and searches stay private.
