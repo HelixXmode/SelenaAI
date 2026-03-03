@@ -1,4 +1,4 @@
-# SelenaAI (AgenticSeek): Private, Local Manus Alternative. `$SELENA`
+# SelenaAI (AgenticSeek): Private, Local Manus Alternative. `$SELENA` (Launched on PF - 29bBLVhA6XE3rM8cMTJGT7MyoMvZS6pnpcTogXA1pump)
 
 
 <p align="center">
